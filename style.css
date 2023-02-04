@@ -1,0 +1,39 @@
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #start-btn, #quiz {
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  #start-btn h2, #quiz h2 {
+    margin: 0;
+  }
+  
+  #time-remaining {
+    color: red;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-right: 0.5em;
+  }
